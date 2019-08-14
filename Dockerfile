@@ -10,5 +10,6 @@ RUN pip2 install scipy==0.17
 RUN pip2 install numpy==1.10.4
 RUN pip2 install brian==1.4.1
 RUN pip2 install sympy
+RUN pip2 install ipython
 
 WORKDIR /work/jovyan/
