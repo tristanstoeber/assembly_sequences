@@ -5,7 +5,6 @@ USER root
 
 RUN apt update
 RUN apt -y install python2.7
-RUN apt -y install python2-pip
 RUN apt install -y python-pip
 RUN pip2 install scipy==0.17
 RUN pip2 install numpy==1.10.4
